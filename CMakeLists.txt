@@ -3,4 +3,4 @@ project(ProyectoSensor)
 
 include_directories(include)
 
-add_executable(app sensor/main.cpp /Sensor.cpp)
+add_executable(app src/main.cpp src/Sensor.cpp)
