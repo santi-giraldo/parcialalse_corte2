@@ -1,11 +1,22 @@
-# Proyecto Parcial - Clase Sensor
+# PARCIAL SEGUNDO CORTE
+ENZO DIAZ - SANTIAGO GIRALDO
 
-Este proyecto simula el registro de sensores usando clases, encapsulamiento, un contenedor `std::vector` de la STL y CMake.
+Se implementó una clase "Sensor" separada en archivos ".h" y ".cpp". En el programa principal, los objetos se almacenan usando un contenedor de la STL, donde se le solicitan y validan los datos al usuario. Todo está organizado con CMake y documentado con Doxygen.
 
-## Compilación
-1. Crea la carpeta de construcción: `mkdir build && cd build`
-2. Configura y compila: `cmake ..` y luego `make`
-3. Ejecuta: `./app`
+# Instrucciones de Compilación
+En la terminal de Ubuntu se ejecutan estos comandos en orden:
 
-## Doxygen
-Para ver la documentación, ejecuta `doxygen Doxyfile` en la raíz y abre `docs/html/index.html` en el navegador. 
+mkdir build
+cd build
+cmake ..
+make
+./app
+
+# Ejemplo de Ejecución
+--- Sistema de Registro de Sensores ---
+Ingrese el valor para el sensor SENS-01: 25.5
+Ingrese el valor para el sensor SENS-02: 60.2
+
+Sensor ID: SENS-01 | Tipo: Temperatura | Valor actual: 25.5
+Sensor ID: SENS-02 | Tipo: Humedad | Valor actual: 60.2
+
