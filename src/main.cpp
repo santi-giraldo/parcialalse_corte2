@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "Sensor.h"
+#include "../include/Sensor.h"
 
 using namespace std;
 
