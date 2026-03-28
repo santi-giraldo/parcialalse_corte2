@@ -13,7 +13,7 @@ make
 ./app
 
 # Ejemplo de Ejecución
---- Sistema de Registro de Sensores ---
+-- Sistema de Registro de Sensores --
 Ingrese el valor para el sensor SENS-01: 25.5
 Ingrese el valor para el sensor SENS-02: 60.2
 
